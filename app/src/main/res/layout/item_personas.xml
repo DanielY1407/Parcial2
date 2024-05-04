@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/img_personas"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            
+            />
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_nombre_persona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_estado_persona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola"
+                android:textColor="#6CD354"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_especie_persona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text="See more"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
